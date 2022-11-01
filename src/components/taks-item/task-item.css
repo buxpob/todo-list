@@ -1,0 +1,29 @@
+.task {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-top: 2px solid rgb(218, 216, 216);
+}
+
+.task--completed {
+  color: rgb(173, 171, 171);
+  text-decoration: line-through;
+}
+
+.task-button {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  background-color: white;
+  border: 1px solid rgb(173, 171, 171);
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.task-button--checked {
+  width: 30px;
+  height: 30px;
+  background-image: url('../../img/checkmark.png');
+  background-repeat: no-repeat;
+  background-size: 28px 28px;
+}

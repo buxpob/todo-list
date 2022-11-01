@@ -1,0 +1,42 @@
+.new-task {
+  position: relative;
+  width: 100%;
+}
+
+.new-task::before {
+  position: absolute;
+  content: '';
+  top: 15px;
+  left: 15px;
+  width: 20px;
+  height: 20px;
+  background-image: url('../../img/arrow-down.png');
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+}
+
+.new-task__input {
+  width: 100%;
+  font-size: 25px;
+  font-style: italic;
+  text-align: start;
+  padding: 10px 20px 10px 50px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.new-task__input::placeholder {
+  color: rgb(216, 214, 214);
+}
+
+.new-task__button {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  width: 50px;
+  height: 40px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
